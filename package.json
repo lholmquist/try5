@@ -1,0 +1,28 @@
+
+{
+    "name":"booster-rest-http-nodejs",
+    "version":"1.0.0",
+    "private":true,
+    "scripts":{
+        "start":"PORT=8080 ./bin/www",
+        "openshift":"nodeshift --osc.strictSSL=false",
+        "test":"tape test/*-test.js"
+    },
+    "files":[
+        "package.json",
+        "README.md",
+        "app.js",
+        "public",
+        "bin"
+    ],
+    "dependencies":{
+        "body-parser":"~1.17.1",
+        "debug":"~2.6.3",
+        "express":"^4.15.3"
+    },
+    "devDependencies":{
+        "nodeshift":"0.0.7",
+        "supertest":"^3.0.0",
+        "tape":"^4.6.3"
+    }
+}
