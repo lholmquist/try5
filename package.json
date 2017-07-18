@@ -21,7 +21,7 @@
         "kubernetes-client": "^3.12.0"
     },
     "devDependencies": {
-        "nodeshift": "^0.2.0",
+        "nodeshift": "^0.3.0-0",
         "supertest": "^3.0.0",
         "tape": "^4.6.3"
     }
