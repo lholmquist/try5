@@ -9,7 +9,6 @@
     },
     "files": [
         "package.json",
-        "README.md",
         "app.js",
         "public",
         "bin"
