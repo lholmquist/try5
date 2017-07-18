@@ -7,7 +7,7 @@ const options = {
 };
 
 const Api = require('kubernetes-client');
-const core = new Api.Core(Api.config.getInCluster());
+const core = Api.config.getInCluster();
 
 console.log(core);
 
