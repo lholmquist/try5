@@ -3,8 +3,8 @@
     "version": "1.0.0",
     "private": true,
     "scripts": {
-        "start": "PORT=8080 ./bin/www",
-        "openshift": "node runner.js",
+        "start": "PORT=8080 node ./bin/www",
+        "openshift": "nodeshift --osc.strictSSL=false",
         "test": "tape test/*-test.js"
     },
     "files": [
